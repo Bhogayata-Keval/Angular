@@ -1,0 +1,9 @@
+<form #userlogin = "ngForm" (ngSubmit) = "onClickSubmit(userlogin.value)" >
+Name: <input type="text" name="name" [(ngModel)]="name"><br/><br/>
+{{name}}
+Contact No: <input type="text" name="contactno" ngModel><br/><br/>
+Age: <input type="number" name="age" ngModel><br/><br/>
+<input type="submit" value="Submit">
+</form>
+
+
